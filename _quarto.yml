@@ -9,7 +9,7 @@ website:
       - href: index.qmd
       - text: RNA seq
         menu:
-          - deseq2/index.qmd
+          - deseq2/inicio.qmd
           - deseq2/example.qmd
 
 format:
@@ -17,6 +17,8 @@ format:
     theme: journal
     css: styles.css
     toc: true
+    number-sections: true
+    embed-resources: true
 
 
 
