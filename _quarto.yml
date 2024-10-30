@@ -1,0 +1,21 @@
+project:
+  type: website
+
+website:
+  title: "Quarto"
+  navbar:
+    left:
+      - href: index.qmd
+      - text: RNA seq
+        menu:
+          - deseq2/index.qmd
+          - deseq2/example.qmd
+
+format:
+  html:
+    theme: journal
+    css: styles.css
+    toc: true
+
+
+
