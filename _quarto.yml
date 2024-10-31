@@ -3,10 +3,11 @@ project:
   output-dir: ../public/_site
 
 website:
-  title: "Quarto"
+  search: false
   navbar:
     left:
-      - href: index.qmd
+      - text: Home  
+        href: ../index.html
       - text: RNA seq
         menu:
           - deseq2/inicio.qmd
@@ -14,7 +15,7 @@ website:
 
 format:
   html:
-    theme: journal
+    theme: flatly
     css: styles.css
     toc: true
     number-sections: true
